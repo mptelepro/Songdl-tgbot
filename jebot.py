@@ -86,7 +86,7 @@ async def song(client, message):
                         reply_markup=InlineKeyboardMarkup(
                             [[
                                     InlineKeyboardButton(
-                                        "Developer", url="https://t.me/ImJanindu")
+                                        "Developer", url="https://t.me/munnipopz")
                                 ]]
                         ),
                parse_mode="html",
@@ -128,12 +128,12 @@ async def song(client, message):
         await message.reply("<b>Enter a song name❗\n\nExample: `/s guleba`</b>")
         return ""
     status = await message.reply(
-             text="<b>Downloading your song, Plz wait 🥺\n\nMade by @Infinity_BOTs 🇱🇰</b>",
+             text="<b>Downloading your song, Plz wait 🥺\n\nMade by @munnipopz 😃</b>",
              disable_web_page_preview=True,
                         reply_markup=InlineKeyboardMarkup(
                             [[
                                     InlineKeyboardButton(
-                                        "Developer", url="https://t.me/ImJanindu")
+                                        "Developer", url="https://t.me/munnipopz")
                                 ]]
                         ),
                parse_mode="html",
@@ -171,7 +171,7 @@ async def start(client, message):
                chat_id=message.chat.id,
                text="""<b>Hey There, I'm a Song Downloader Bot
 
-Made by @ImJanindu 🇱🇰
+Made by @munnipopz😄
 
 Hit help button to find out more about how to use me</b>""",   
                             reply_markup=InlineKeyboardMarkup(
@@ -179,7 +179,7 @@ Hit help button to find out more about how to use me</b>""",
                                         InlineKeyboardButton(
                                             "Help", callback_data="help"),
                                         InlineKeyboardButton(
-                                            "Channel", url="https://t.me/Infinity_BOTs")
+                                            "😈Channel😈", url="https://t.me/mpazaanbot")
                                     ]]
                             ),        
             disable_web_page_preview=True,        
@@ -210,7 +210,7 @@ async def help(client, message):
                chat_id=message.chat.id,
                text="""<b>Send a song name to download song
 
-~ @Infinity_BOTs</b>""",
+~ @munnipopz</b>""",
             reply_to_message_id=message.message_id
         )
     else:
@@ -232,7 +232,7 @@ print(
     """
 Bot Started!
 
-Join @Infinity_BOTs
+Join @mpazaanbot
 """
 )
 
